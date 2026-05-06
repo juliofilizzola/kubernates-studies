@@ -1,0 +1,80 @@
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+tmp/
+temp/
+*.tmp
+*.bak
+*.old
+*.orig
+
+# Arquivos de configuração locais
+*.env
+*.local
+*.secret
+*.bak
+
+# Docker e container
+docker-compose.override.yml
+docker-compose.local.yml
+.docker/
+*docker-compose*.env
+
+# Kubernetes
+*.kubeconfig
+.kube/
+*.minikube
+minikube/
+*.kind
+kind/
+
+# Helm
+charts/
+*.tgz
+.helm/
+
+# Arquivos de build
+dist/
+build/
+node_modules/
+coverage/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# Go
+bin/
+*.exe
+*.test
+*.out
+
+# YAML backups
+*.yaml~
+*.yml~
+
+# Outros
+.envrc
+.terraform/
+.env.*.local
+.idea
